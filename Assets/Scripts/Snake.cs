@@ -19,7 +19,7 @@ public class Snake : MonoBehaviour
     List<Transform> tail = new List<Transform>();
 
     //current movement direction
-    Vector2 dir = Vector2.right;
+    public Vector2 dir = Vector2.right;
 
     private void Start()
     {
